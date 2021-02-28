@@ -1,13 +1,19 @@
 name = "Elfutils_jll"
 uuid = "ab5a07f8-06af-567f-a878-e8bb879eba5a"
-version = "0.177.0+1"
+version = "0.179.0+0"
 
 [deps]
+fts_jll = "d65627f6-89bd-53e8-8ab5-8b75ff535eee"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+obstack_jll = "c88a4935-d25e-5644-aacc-5db6f1b8ef79"
 Bzip2_jll = "6e34b625-4abd-537c-b88f-471c36dfa7a0"
 Zlib_jll = "83775a58-1f1d-513f-b197-d71354ab007a"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
 XZ_jll = "ffd25f8a-64ca-5728-b0f7-c24cf3aae800"
+Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
+argp_standalone_jll = "c53206cc-00f7-50bf-ad1e-3ae1f6e49bc3"
 
 [compat]
+JLLWrappers = "1.2.0"
 julia = "1.0"
