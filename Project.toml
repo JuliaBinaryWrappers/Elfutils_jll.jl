@@ -1,6 +1,6 @@
 name = "Elfutils_jll"
 uuid = "ab5a07f8-06af-567f-a878-e8bb879eba5a"
-version = "0.179.0+0"
+version = "0.182.0+0"
 
 [deps]
 fts_jll = "d65627f6-89bd-53e8-8ab5-8b75ff535eee"
@@ -16,4 +16,6 @@ argp_standalone_jll = "c53206cc-00f7-50bf-ad1e-3ae1f6e49bc3"
 
 [compat]
 JLLWrappers = "1.2.0"
-julia = "1.0"
+julia = "1.6"
+obstack_jll = "~1.2.2"
+Bzip2_jll = "1.0.8"
