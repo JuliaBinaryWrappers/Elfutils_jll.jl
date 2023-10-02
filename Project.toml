@@ -1,10 +1,9 @@
 name = "Elfutils_jll"
 uuid = "ab5a07f8-06af-567f-a878-e8bb879eba5a"
-version = "0.182.0+1"
+version = "0.189.0+0"
 
 [deps]
 fts_jll = "d65627f6-89bd-53e8-8ab5-8b75ff535eee"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
 obstack_jll = "c88a4935-d25e-5644-aacc-5db6f1b8ef79"
 Bzip2_jll = "6e34b625-4abd-537c-b88f-471c36dfa7a0"
