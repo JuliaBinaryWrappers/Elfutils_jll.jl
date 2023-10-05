@@ -6,7 +6,7 @@ os = "linux"
 
     [[Elfutils.download]]
     sha256 = "62a3e2f9743f5654f7aa8df0b51a9e3d03bd20886dc26bdf908270e0d65f90f1"
-    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+0/Elfutils.v0.189.0.aarch64-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+1/Elfutils.v0.189.0.aarch64-linux-gnu.tar.gz"
 [[Elfutils]]
 arch = "aarch64"
 git-tree-sha1 = "23c6bd0fe51fe6d8fe0897036c36384f156463ce"
@@ -15,7 +15,27 @@ os = "linux"
 
     [[Elfutils.download]]
     sha256 = "9609e7d3c5c322f2087e5d02cf6385608e3908ace7c56fc40e9a9dc70348004c"
-    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+0/Elfutils.v0.189.0.aarch64-linux-musl.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+1/Elfutils.v0.189.0.aarch64-linux-musl.tar.gz"
+[[Elfutils]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "b96f3cf4efd9ec1059ac7973e72283549ce37218"
+libc = "glibc"
+os = "linux"
+
+    [[Elfutils.download]]
+    sha256 = "937f8a30f464ab4d1b819529933aab5713ee1a41983a2eda4e001367b4da5c72"
+    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+1/Elfutils.v0.189.0.armv6l-linux-gnueabihf.tar.gz"
+[[Elfutils]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "8bf23453adeffd09ba7ceb0d559f5090f7bf92ef"
+libc = "musl"
+os = "linux"
+
+    [[Elfutils.download]]
+    sha256 = "156e360a4cc0c287037d93264832e94023cdae399dbb9dec00022311d4309377"
+    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+1/Elfutils.v0.189.0.armv6l-linux-musleabihf.tar.gz"
 [[Elfutils]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -25,7 +45,7 @@ os = "linux"
 
     [[Elfutils.download]]
     sha256 = "321c4cf6489dcaff78045997bfde0b7507fdc0b8c736c6c66ea1006ede10293d"
-    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+0/Elfutils.v0.189.0.armv7l-linux-gnueabihf.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+1/Elfutils.v0.189.0.armv7l-linux-gnueabihf.tar.gz"
 [[Elfutils]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -35,16 +55,16 @@ os = "linux"
 
     [[Elfutils.download]]
     sha256 = "2bbef3932aba76fa9bd02641205d7ea8e50486b326c837bc4cc0d1539772e89d"
-    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+0/Elfutils.v0.189.0.armv7l-linux-musleabihf.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+1/Elfutils.v0.189.0.armv7l-linux-musleabihf.tar.gz"
 [[Elfutils]]
 arch = "i686"
-git-tree-sha1 = "650894840bac6204df8b97f5fb754d6f467b2877"
+git-tree-sha1 = "6299dddf56248dd76aa5d629e2d90edd60d5fe7a"
 libc = "glibc"
 os = "linux"
 
     [[Elfutils.download]]
-    sha256 = "92281ab9dfe0f560794fa99ed7d4049ef846f34a738b8a1e32f66282ddddcf2f"
-    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+0/Elfutils.v0.189.0.i686-linux-gnu.tar.gz"
+    sha256 = "9eb39163161c6716bf3799a73b245f4f28637e125a5896f8424387c26698f8ee"
+    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+1/Elfutils.v0.189.0.i686-linux-gnu.tar.gz"
 [[Elfutils]]
 arch = "i686"
 git-tree-sha1 = "b61cae0ebb08944ea51ee46766427230f191b07f"
@@ -53,7 +73,7 @@ os = "linux"
 
     [[Elfutils.download]]
     sha256 = "befbe692fa84a8533b683af1c8569eb7e738a98bdbd04a137109effdd8e871ce"
-    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+0/Elfutils.v0.189.0.i686-linux-musl.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+1/Elfutils.v0.189.0.i686-linux-musl.tar.gz"
 [[Elfutils]]
 arch = "powerpc64le"
 git-tree-sha1 = "d1a161b4e8f7cdd82e9b2849cc45d11da15bd63f"
@@ -62,7 +82,7 @@ os = "linux"
 
     [[Elfutils.download]]
     sha256 = "aaebfa8f2250bd9309d1b768bf5f1d499912be326101b3294ebc056eb0ea54dc"
-    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+0/Elfutils.v0.189.0.powerpc64le-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+1/Elfutils.v0.189.0.powerpc64le-linux-gnu.tar.gz"
 [[Elfutils]]
 arch = "x86_64"
 git-tree-sha1 = "8b744fbb1714664f26744411f508481a7e1a0f54"
@@ -71,7 +91,7 @@ os = "linux"
 
     [[Elfutils.download]]
     sha256 = "4cfe87dcb80c212fbaa8e5489115137f82919a478f328861c660274ef4f80e8c"
-    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+0/Elfutils.v0.189.0.x86_64-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+1/Elfutils.v0.189.0.x86_64-linux-gnu.tar.gz"
 [[Elfutils]]
 arch = "x86_64"
 git-tree-sha1 = "59c52bf33611537eea5cfe2a3340e548869a9501"
@@ -80,4 +100,4 @@ os = "linux"
 
     [[Elfutils.download]]
     sha256 = "2ccce32f987c848cabb11ff46ba6c03c25f36bf38279b72e8406ae5c3dbb11ea"
-    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+0/Elfutils.v0.189.0.x86_64-linux-musl.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Elfutils_jll.jl/releases/download/Elfutils-v0.189.0+1/Elfutils.v0.189.0.x86_64-linux-musl.tar.gz"
